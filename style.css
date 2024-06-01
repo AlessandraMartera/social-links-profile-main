@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* general settings*/
+@font-face {
+  font-family: mioFont;
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+body {
+  background-color: #000;
+  color: #ffff;
+  text-align: center;
+  font-size: 24px;
+}
+.container {
+  margin: 82px auto;
+  background-color: #292929;
+  padding: 20px;
+  width: 90%;
+  border-radius: 16px;
+}
+/* uppur settings section */
+.upper {
+  margin: 48px 0;
+}
+img {
+  border-radius: 50%;
+  width: 100px;
+}
+.andress {
+  margin: 20px 0;
+  color: #adff2f;
+}
+/* lower settings section */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-weight: 600;
+  margin: 15px;
+  padding: 18px;
+  border-radius: 10px;
+  background-color: #505050;
+}
+/* attributs */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media only screen and (min-width: 740px) {
+  .container {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 40%;
+  }
+}
